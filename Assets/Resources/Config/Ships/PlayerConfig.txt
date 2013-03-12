@@ -1,0 +1,70 @@
+[General]
+Texture: Player
+Shield: 50
+Hull: 50
+MaxVelocity: 50 2
+
+# Body
+
+[Frame]
+Pos: 66 0
+Size: 66 66
+Count: 1
+Time: 0
+
+[Hull0]
+Pos: 0 0
+Size: 66 66
+Count: 1
+Time: 0
+
+[Hull1]
+Pos: 0 66
+Size: 66 66
+Count: 1
+Time: 0
+
+[Hull2]
+Pos: 66 66
+Size: 66 66
+Count: 1
+Time: 0
+
+[Hull3]
+Pos: 132 66
+Size: 66 66
+Count: 1
+Time: 0
+
+[Shield]
+Pos: 10 152
+Size: 95 86
+Count: 1
+Time: 0
+
+# Contrails
+
+[Contrail0]
+Pos: 8 33
+Width: 3
+Color: 1 0.9 1
+
+# Weapons
+
+[Weapon0]
+Type: Destroyer_Laser
+Pos: 36 33
+
+# Destruction elements
+
+[Chunk0]
+Pos: 132 0
+Size: 27 36
+
+[Chunk1]
+Pos: 134 36
+Size: 20 30
+
+[Chunk2]
+Pos: 163 1
+Size: 35 32

@@ -1,0 +1,19 @@
+[General]
+Name: Command Center
+Texture: CommandCenter
+Health: 1000
+Price: 500 0
+Armor: 0
+ConsumptionRate: 0
+MaxUpgradeLevels: 3
+UpgradeMagnitude: 10
+MaxConnDist: 200.0
+MinConnDist: 60.0
+Size: 200 200
+Type: CommandCenter
+
+[Power]
+MaxConnections: 6
+MaxEnergy: 100.0
+
+

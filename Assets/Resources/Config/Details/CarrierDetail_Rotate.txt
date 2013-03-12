@@ -1,0 +1,9 @@
+[general]
+texture: Textures/Carrier
+
+[animation]
+Pos: 389 64
+Rotation: 1
+Size: 14 14
+Count: 1
+Time: 0

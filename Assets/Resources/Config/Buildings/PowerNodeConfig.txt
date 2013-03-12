@@ -1,0 +1,17 @@
+[General]
+Name: Power Repeater
+Texture: PowerNode
+Health: 50
+Price: 10 0
+Armor: 0
+ConsumptionRate: 0
+MaxUpgradeLevels: 0
+UpgradeMagnitude: 0
+MaxConnDist: 200.0
+MinConnDist: 60.0
+Size: 25 25
+Type: powernode
+
+[Power]
+MaxConnections: 4
+

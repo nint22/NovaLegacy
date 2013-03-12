@@ -1,0 +1,18 @@
+[General]
+Name: Carrier Shipyard
+Texture: CarrierShipyard
+Health: 800
+Price: 1000 0
+Armor: 0
+ConsumptionRate: 40
+MaxUpgradeLevels: 3
+UpgradeMagnitude: 5
+MaxConnDist: 200.0
+MinConnDist: 60.0
+Size: 300 300
+Type: shipyard
+
+[Shipyard]
+ShipCapacity: 2
+BuildCoolDown: 60.0
+ShipConfig: Config/Ships/CarrierConfig.txt

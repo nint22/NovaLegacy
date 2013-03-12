@@ -1,0 +1,32 @@
+[General]
+Texture: Projectiles
+
+[Gatling]
+Pos: 0 0
+Size: 8 8
+Count: 1
+Time: 0
+
+[Laser]
+Pos: 0 8
+Size: 24 8
+Count: 1
+Time: 0
+
+[RailGun]
+Pos: 0 16
+Size: 16 8
+Count: 1
+Time: 0
+
+[Missile]
+Pos: 0 28
+Size: 12 10
+Count: 1
+Time: 0
+
+[Glow]
+Pos: 24 24
+Size: 32 32
+Count: 1
+Time: 0

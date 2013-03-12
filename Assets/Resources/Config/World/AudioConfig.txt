@@ -1,0 +1,19 @@
+[Song0]
+Non-Combat: 1A
+Combat: 1B
+
+[Song1]
+Non-Combat: 2A
+Combat: 2B
+
+[Song2]
+Non-Combat: 3A
+Combat: 3B
+
+[Song3]
+Non-Combat: 4A
+Combat: 4B
+
+[Song4]
+Non-Combat: 5A
+Combat: 5B

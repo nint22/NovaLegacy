@@ -1,0 +1,20 @@
+[General]
+Name: Mining Platform
+Texture: MiningPlatform
+Health: 200
+Price: 200 0
+Armor: 0
+ConsumptionRate: 5
+MaxUpgradeLevels: 0
+UpgradeMagnitude: 0
+MaxConnDist: 200.0
+MinConnDist: 60.0
+Size: 200 200
+Type: shipyard
+
+[Shipyard]
+ShipCapacity: 5
+BuildCoolDown: 20.0
+ShipConfig: Config/Ships/MinerConfig.txt
+
+

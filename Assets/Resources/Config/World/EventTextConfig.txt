@@ -1,0 +1,28 @@
+# You can add as many more as you want to the list, but two rules:
+# 1. If you need ship names, you must use "$shipName", and it is case-sensitive
+# 2. The key names must be unique, and in incrementing order starting at 0
+
+[Creation]
+msg0: $shipName Initializing..All systems clear.
+msg1: $shipName Online.  Synchronizing Nautilis Commands…
+msg2: $shipName Construction Complete.  Initializing LADAR and Automatic Threat Acquisition System
+
+[Destruction]
+msg0: $shipName Destroyed
+msg1: The $shipName has been Lost
+msg2: $shipName Offline...
+
+[Warning]
+msg0: $shipName  Destruction Imminent.
+msg1: $shipName sustaining massive damage.
+msg2: Systems Malfunctioning. $shipName self-destruction activated.
+
+[Repaired]
+msg0: $shipName Repaired...
+msg1: Salvaged $shipName
+msg2: Nano-Repair of %shipName: 100%
+
+[Incoming]
+msg0: Anomaly Recognized...Priming Weapons.
+msg1: Warning, Hostile entities detected. Prepare to engage.
+msg2: Threat Assessment Complete: Threat Level 5.  Alien ships inclosing.

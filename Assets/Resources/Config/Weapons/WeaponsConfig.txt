@@ -1,0 +1,62 @@
+[Carrier_Gatling]
+Texture: Carrier
+CoolDown: 1.5
+Pos: 805 67
+Size: 54 19
+Count: 1
+Time: 0
+Projectile: Gatling
+
+[Destroyer_Gatling]
+Texture: Destroyer
+CoolDown: 1.0
+Pos: 584 61
+Size: 40 19
+Count: 1
+Time: 0
+Projectile: Gatling
+
+[Fighter_Gatling]
+Texture: Fighter
+CoolDown: 1.0
+Pos: 272 40
+Size: 48 19
+Count: 1
+Time: 0
+Projectile: Gatling
+
+[Destroyer_Laser]
+Texture: Destroyer
+CoolDown: 2.5
+Pos: 576 83
+Size: 56 19
+Count: 1
+Time: 0
+Projectile: Laser
+
+[Enemy0_Gun]
+Texture: Enemy0
+CoolDown: 1
+Pos: 384 84
+Size: 77 56
+Count: 1
+Time: 0
+Projectile: Laser
+
+#[Destroyer_Missile]
+#Texture: Destroyer
+#CoolDown: 5
+#Pos: 411 64
+#Size: 18 14
+#Count: 1
+#Time: 0
+#Projectile: Missile
+
+#[Destroyer_RailGun]
+#Texture: Destroyer
+#CoolDown: 1.5
+#Pos: 411 64
+#Size: 18 14
+#Count: 1
+#Time: 0
+#Projectile: RailGun

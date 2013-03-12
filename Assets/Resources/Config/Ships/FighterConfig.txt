@@ -1,0 +1,70 @@
+[General]
+Texture: Fighter
+Shield: 50
+Hull: 100
+MaxVelocity: 50 1
+
+# Body
+
+[Frame]
+Pos: 132 0
+Size: 132 66
+Count: 1
+Time: 0
+
+[Hull0]
+Pos: 0 0
+Size: 132 66
+Count: 1
+Time: 0
+
+[Hull1]
+Pos: 0 66
+Size: 132 66
+Count: 1
+Time: 0
+
+[Hull2]
+Pos: 132 66
+Size: 132 66
+Count: 1
+Time: 0
+
+[Hull3]
+Pos: 264 66
+Size: 132 66
+Count: 1
+Time: 0
+
+[Shield]
+Pos: 0 0
+Size: 0 0
+Count: 1
+Time: 0
+
+# Contrails
+
+[Contrail0]
+Pos: 8 32
+Width: 10
+Color: 0.9 0.9 1
+
+# Weapons
+
+[Weapon0]
+Type: Fighter_Gatling
+Pos: 67 33
+
+# Destruction elements
+
+[Chunk0]
+Pos: 264 0
+Size: 27 35
+
+[Chunk1]
+Pos: 295 1
+Size: 35 32
+
+[Chunk2]
+Pos: 340 2
+Size: 20 31

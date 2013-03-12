@@ -1,0 +1,18 @@
+[General]
+Name: Destroyer Shipyard
+Texture: DestroyerShipyard
+Health: 500
+Price: 500 0
+Armor: 0
+ConsumptionRate: 20
+MaxUpgradeLevels: 3
+UpgradeMagnitude: 3
+MaxConnDist: 200.0
+MinConnDist: 60.0
+Size: 200 200
+Type: Shipyard
+
+[Shipyard]
+ShipCapacity: 6
+BuildCoolDown: 60.0
+ShipConfig: Config/Ships/DestroyerConfig.txt

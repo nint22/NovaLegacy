@@ -1,0 +1,15 @@
+[Mineral0]
+Texture: SmallMineral
+Type: Mineral
+Pos: 0 0
+Size: 64 64
+Resources: 10000
+Radius: 60
+
+[Mineral1]
+Texture: SmallMineral
+Type: Mineral
+Pos: 64 0
+Size: 64 64
+Resources: 10000
+Radius: 60

@@ -1,0 +1,143 @@
+[General]
+Texture: Destroyer
+Shield: 100
+Hull: 200
+MaxVelocity: 40 0.5
+
+# Body
+
+[Frame]
+Pos: 292 0
+Size: 292 107
+Count: 1
+Time: 0
+
+[Hull0]
+Pos: 0 0
+Size: 292 107
+Count: 1
+Time: 0
+
+[Hull1]
+Pos: 0 107
+Size: 292 108
+Count: 1
+Time: 0
+
+[Hull2]
+Pos: 292 107
+Size: 292 108
+Count: 1
+Time: 0
+
+[Hull3]
+Pos: 584 107
+Size: 292 108
+Count: 1
+Time: 0
+
+[Hull4]
+Pos: 0 216
+Size: 292 108
+Count: 1
+Time: 0
+
+[Hull5]
+Pos: 292 216
+Size: 292 108
+Count: 1
+Time: 0
+
+[Hull6]
+Pos: 584 216
+Size: 292 108
+Count: 1
+Time: 0
+
+[Hull7]
+Pos: 0 324
+Size: 292 108
+Count: 1
+Time: 0
+
+[Hull8]
+Pos: 292 324
+Size: 292 108
+Count: 1
+Time: 0
+
+[Hull9]
+Pos: 584 324
+Size: 292 108
+Count: 1
+Time: 0
+
+[Shield]
+Pos: 0 0
+Size: 0 0
+Count: 1
+Time: 0
+
+# Contrails
+
+[Contrail0]
+Pos: 6 35
+Width: 20
+Color: 0.9 0.9 1
+
+[Contrail1]
+Pos: 6 71
+Width: 20
+Color: 0.9 0.9 1
+
+# Weapons
+
+[Weapon0]
+Type: Destroyer_Gatling
+Pos: 219 41
+
+[Weapon1]
+Type: Destroyer_Gatling
+Pos: 219 65
+
+[Weapon2]
+Type: Destroyer_Laser
+Pos: 101 15
+
+[Weapon3]
+Type: Destroyer_Laser
+Pos: 101 91
+
+# Destruction elements
+
+[Chunk0]
+Pos: 589 4
+Size: 28 41
+
+[Chunk1]
+Pos: 618 5
+Size: 29 40
+
+[Chunk2]
+Pos: 650 7
+Size: 36 38
+
+[Chunk3]
+Pos: 687 11
+Size: 38 34
+
+[Chunk4]
+Pos: 727 11
+Size: 33 34
+
+[Chunk5]
+Pos: 763 4
+Size: 30 41
+
+[Chunk6]
+Pos: 795 11
+Size: 35 34
+
+[Chunk7]
+Pos: 834 11
+Size: 38 34

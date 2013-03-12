@@ -1,0 +1,44 @@
+[General]
+Texture: Miner
+Shield: 50
+Hull: 25
+MaxVelocity: 25 0.5
+
+# Body
+
+[Frame]
+Pos: 0 0
+Size: 30 26
+Count: 1
+Time: 0
+
+[Hull0]
+Pos: 0 26
+Size: 30 26
+Count: 4
+Time: 0.25
+
+[Hull1]
+Pos: 0 52
+Size: 30 26
+Count: 4
+Time: 0.25
+
+[Hull2]
+Pos: 0 78
+Size: 30 26
+Count: 4
+Time: 0.25
+
+[Shield]
+Pos: 12 198
+Size: 44 44
+Count: 1
+Time: 0
+
+# Contrails
+
+[Contrail0]
+Pos: 4 13
+Width: 3
+Color: 0.6 0.4 1.0

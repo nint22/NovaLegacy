@@ -1,0 +1,23 @@
+[Rock0]
+Texture: RockJunk
+Type: Junk
+Pos: 0 0
+Size: 16 16
+
+[Rock1]
+Texture: RockJunk
+Type: Junk
+Pos: 16 0
+Size: 16 32
+
+[Rock2]
+Texture: RockJunk
+Type: Junk
+Pos: 32 0
+Size: 32 32
+
+[Rock3]
+Texture: RockJunk
+Type: Junk
+Pos: 64 0
+Size: 32 48

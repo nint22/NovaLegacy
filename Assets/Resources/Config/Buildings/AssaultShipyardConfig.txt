@@ -1,0 +1,18 @@
+[General]
+Name: Assault Factory
+Texture: AssaultShipyard
+Health: 250
+Price: 250 0
+Armor: 0
+ConsumptionRate: 10
+MaxUpgradeLevels: 3
+UpgradeMagnitude: 2
+MaxConnDist: 200.0
+MinConnDist: 60.0
+Size: 200 200
+Type: Shipyard
+
+[Shipyard]
+ShipCapacity: 3
+BuildCoolDown: 30.0
+ShipConfig: Config/Ships/FighterConfig.txt

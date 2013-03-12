@@ -1,0 +1,78 @@
+[General]
+Texture: Enemy1
+Shield: 100
+Hull: 100
+MaxVelocity: 10 0.1
+
+# Body
+
+[Frame]
+Pos: 285 0
+Size: 285 173
+Count: 1
+Time: 0
+
+[Hull0]
+Pos: 0 0
+Size: 285 173
+Count: 1
+Time: 0
+
+[Hull1]
+Pos: 0 173
+Size: 285 173
+Count: 1
+Time: 0
+
+[Hull2]
+Pos: 285 173
+Size: 285 173
+Count: 1
+Time: 0
+
+[Hull3]
+Pos: 570 173
+Size: 200 152
+Count: 1
+Time: 0
+
+[Shield]
+Pos: 0 0
+Size: 0 0
+Count: 1
+Time: 0
+
+# Contrails
+
+[Contrail0]
+Pos: 30 84
+Width: 40
+Color: 0.9 0.2 0.2
+
+# Weapons
+
+[Weapon0]
+Type: Enemy0_Gun
+Pos: 240 48
+
+[Weapon1]
+Type: Enemy0_Gun
+Pos: 240 119
+
+[Weapon2]
+Type: Enemy0_Gun
+Pos: 92 84
+
+# Destruction elements
+
+[Chunk0]
+Pos: 400 14
+Size: 58 58
+
+[Chunk1]
+Pos: 478 2
+Size: 49 70
+
+[Chunk2]
+Pos: 544 10
+Size: 45 62

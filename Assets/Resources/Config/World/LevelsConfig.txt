@@ -1,0 +1,13 @@
+[Level1]
+scene: Level2
+size: 1000
+description: This is a test level: simply survive three waves!
+win: You won!
+lose: You lost!
+
+[Level2]
+scene: Level2
+size: 5000
+description: This is a test level: mine the world!
+win: You won!
+lose: You lost!

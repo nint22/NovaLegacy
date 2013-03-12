@@ -1,0 +1,146 @@
+[General]
+Texture: Carrier
+Shield: 200
+Hull: 600
+MaxVelocity: 30 0.25
+
+# Body
+
+[Frame]
+Pos: 408 0
+Size: 408 152
+Count: 1
+Time: 0
+
+[Hull0]
+Pos: 0 0
+Size: 408 152
+Count: 1
+Time: 0
+
+[Hull1]
+Pos: 0 152
+Size: 408 152
+Count: 1
+Time: 0
+
+[Hull2]
+Pos: 408 152
+Size: 408 152
+Count: 1
+Time: 0
+
+[Hull3]
+Pos: 816 152
+Size: 408 152
+Count: 1
+Time: 0
+
+[Hull4]
+Pos: 0 304
+Size: 408 152
+Count: 1
+Time: 0
+
+[Hull5]
+Pos: 408 304
+Size: 408 152
+Count: 1
+Time: 0
+
+[Hull6]
+Pos: 816 304
+Size: 408 152
+Count: 1
+Time: 0
+
+[Hull7]
+Pos: 0 456
+Size: 408 152
+Count: 1
+Time: 0
+
+[Hull8]
+Pos: 408 456
+Size: 408 152
+Count: 1
+Time: 0
+
+[Hull9]
+Pos: 816 456
+Size: 408 152
+Count: 1
+Time: 0
+
+[Shield]
+Pos: 0 0
+Size: 0 0
+Count: 1
+Time: 0
+
+# Contrails
+
+[Contrail0]
+Pos: 12 74
+Width: 50
+Color: 1 0.9 0.9
+
+# Weapons
+
+[Weapon0]
+Type: Carrier_Gatling
+Pos: 215 37
+
+[Weapon1]
+Type: Carrier_Gatling
+Pos: 215 114
+
+[Weapon2]
+Type: Carrier_Gatling
+Pos: 335 81
+
+[Weapon3]
+Type: Carrier_Gatling
+Pos: 335 108
+
+[Weapon4]
+Type: Carrier_Gatling
+Pos: 356 91
+
+[Weapon5]
+Type: Carrier_Gatling
+Pos: 356 108
+
+# Destruction elements
+
+[Chunk0]
+Pos: 816 1
+Size: 28 40
+
+[Chunk1]
+Pos: 845 1
+Size: 28 40
+
+[Chunk2]
+Pos: 877 2
+Size: 36 39
+
+[Chunk3]
+Pos: 914 3
+Size: 39 38
+
+[Chunk4]
+Pos: 953 7
+Size: 35 34
+
+[Chunk5]
+Pos: 990 0
+Size: 30 41
+
+[Chunk6]
+Pos: 1022 7
+Size: 35 34
+
+[Chunk7]
+Pos: 1061 7
+Size: 38 34

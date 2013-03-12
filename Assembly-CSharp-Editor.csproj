@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{14278D4A-A30E-D272-D8BC-02F80CB010AD}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp-Editor</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_3_5_2;UNITY_3_5;UNITY_EDITOR;ENABLE_PROFILER;UNITY_STANDALONE_OSX;ENABLE_GENERICS;ENABLE_DUCK_TYPING;ENABLE_TERRAIN;ENABLE_MOVIES;ENABLE_WEBCAM;ENABLE_MICROPHONE;ENABLE_NETWORK;ENABLE_CLOTH;ENABLE_WWW;ENABLE_SUBSTANCE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="UnityEngine">
+	  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Editor\LevelEntityEditor.cs" />
+     <None Include="Assets\Resources\Config\Buildings\MiningPlatformConfig.txt" />
+     <None Include="Assets\Resources\Config\World\EventTextConfig.txt" />
+     <None Include="Assets\Resources\Config\Buildings\TurretConfig.txt" />
+     <None Include="Assets\Resources\Config\Buildings\DestroyerShipyardConfig.txt" />
+     <None Include="Assets\Resources\Config\World\MineralJunkConfig.txt" />
+     <None Include="Assets\Resources\Config\Buildings\AssaultShipyardConfig.txt" />
+     <None Include="Assets\Resources\Shaders\VertexColor.shader" />
+     <None Include="Assets\Resources\Config\Ships\PlayerConfig.txt" />
+     <None Include="Assets\Resources\Config\Weapons\ProjectilesConfig.txt" />
+     <None Include="Assets\Resources\Config\Weapons\WeaponsConfig.txt" />
+     <None Include="Assets\Resources\Config\World\LevelsConfig.txt" />
+     <None Include="Assets\Resources\Config\Buildings\CarrierShipyardConfig.txt" />
+     <None Include="Assets\Resources\Config\Details\CarrierDetail_Scan.txt" />
+     <None Include="Assets\Resources\Config\Ships\ShipNameConfig.txt" />
+     <None Include="Assets\Resources\Config\World\AudioConfig.txt" />
+     <None Include="Assets\Resources\Config\Enemies\EnemyConfig1.txt" />
+     <None Include="Assets\Resources\Config\Ships\DestroyerConfig.txt" />
+     <None Include="Assets\Necromancer GUI\Kingthings.txt" />
+     <None Include="Assets\Resources\Config\Buildings\PowerNodeConfig.txt" />
+     <None Include="Assets\Necromancer GUI\Readme.txt" />
+     <None Include="Assets\Resources\Config\Details\CarrierDetail_Rotate.txt" />
+     <None Include="Assets\Resources\Config\Ships\MinerConfig.txt" />
+     <None Include="Assets\Resources\Config\Enemies\EnemyConfig0.txt" />
+     <None Include="Assets\Resources\Config\Enemies\EnemyConfig2.txt" />
+     <None Include="Assets\Resources\Config\Buildings\CommandCenterConfig.txt" />
+     <None Include="Assets\Resources\Config\World\RockJunkConfig.txt" />
+     <None Include="Assets\Resources\Config\Ships\CarrierConfig.txt" />
+     <None Include="Assets\Resources\Config\Ships\FighterConfig.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp.csproj">
+      <Project>{6069C91B-B0DC-90CE-2EC4-147CEED1ED66}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

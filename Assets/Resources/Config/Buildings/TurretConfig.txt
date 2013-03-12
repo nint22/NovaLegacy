@@ -1,0 +1,44 @@
+[General]
+Name: Short-Range Turret
+Texture: Turret
+Health: 50
+Price: 10 0
+Armor: 0
+ConsumptionRate: 0
+MaxUpgradeLevels: 0
+UpgradeMagnitude: 0
+MaxConnDist: 200.0
+MinConnDist: 60.0
+Size: 25 25
+Type: turret
+
+[Turret]
+NumGuns: 1
+AlertRadius: 300.0
+FireRadius: 200.0
+
+[Gun1]
+Type: Gatling
+Offset: 0 0
+Size: 50 50
+
+[Gatling]
+Texture: turret_gun
+CoolDown: 1.5
+Projectile: Gatling
+
+# Examples: no real graphics yet
+[Laser]
+Texture: Destroyer
+CoolDown: 0.5
+Projectile: Laser
+
+[Missile]
+Texture: Destroyer
+CoolDown: 5
+Projectile: Missile
+
+[RailGun]
+Texture: Destroyer
+CoolDown: 1.5
+Projectile: RailGun
